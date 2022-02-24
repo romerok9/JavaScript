@@ -1,0 +1,40 @@
+* {
+    list-style: none;
+    color: white;
+}
+
+.desafio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.desafio nav {
+    display: inline-block;
+}
+
+.desafio nav ul li {
+    display: inline-block;
+    padding: 1rem;
+    background: rgb(52, 101, 236);
+}
+
+.desafio nav ul li:hover {
+    transform: translateY(-0.2rem);
+    -moz-transform: translateY(-0.2rem);
+    -webkit-transform: translateY(-0.2rem);
+    -o-transform: translateY(-0.2rem);
+    transition: all 0.8s;
+}
+
+.desafio nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.desafio nav ul li a:hover {
+    -moz-transform: translateY(-0.2rem);
+    -webkit-transform: translateY(-0.2rem);
+    -o-transform: translateY(-0.2rem);
+    transition: all 0.5s;
+}
